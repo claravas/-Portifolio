@@ -1,0 +1,57 @@
+main {
+    position: relative;
+    padding: 2em 4em;
+    height: 80vh;
+}
+
+#Logo {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+#carrossel {
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: hidden;
+    height: 500px;
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    transition: .7s ease-in-out;
+    transform: translateX(0px);
+}
+
+.container img {
+    border-radius: 3em;
+    height: 500px;
+    width: 550px;
+}
+
+@media (max-width: 768px) {
+    main {
+        height: 85vh;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        padding: 0;
+        text-align: center;
+    }
+
+    
+
+    #carrossel {
+        height: 300px;
+        width: 350px;
+    }
+
+    .container img {
+        height: 300px;
+        width: 350px;
+    }
+}

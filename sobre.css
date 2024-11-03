@@ -1,0 +1,33 @@
+p {
+    font-family: "Jomolhari", serif;
+    max-width: 550px;
+    word-wrap: break-word;
+    font-size: 1.25em;
+}
+
+main {
+    position: relative;
+    padding: 2em 4em;
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 7em;
+}
+
+@media (max-width: 1024px) {
+    main>div {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    main img {
+        width: 100%;
+    }
+}

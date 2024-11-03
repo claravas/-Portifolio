@@ -1,0 +1,26 @@
+main {
+    color: white;
+    text-align: center;
+    position: relative;
+    background-image: url(../img/plano\ de\ fundo.png);
+    height: 90vh;
+}
+
+#Logo {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+#Clara {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+#Clara h1,
+#Clara p {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}

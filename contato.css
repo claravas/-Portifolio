@@ -1,0 +1,70 @@
+p {
+    font-family: "Jomolhari", serif;
+    text-align: left;
+}
+
+main {
+    position: relative;
+    padding: 2em 4em;
+    height: 80vh;
+}
+
+main>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    width: fit-content;
+    text-align: center;
+    padding: 2.25em;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    border: 0px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    margin-bottom: 3em;
+    font-size: 1.25;
+    padding: .5em .25em;
+}
+
+form>div {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+button {
+    display: block;
+    padding: 1em 4em;
+    margin: auto 0 0 auto;
+}
+
+
+#Contatos>div {
+    margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+    main>div  {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 425px){
+    main {
+        height: 90vh;
+    }
+}
